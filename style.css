@@ -109,14 +109,16 @@ section {
     top: 50%;
     z-index: 50;
 }
-.sirc {
+.circle {
     height: auto;
-    width: 90px;
+    width: 20px;
     position: absolute;
     left: 82%;
     top: 90%;
     z-index: 50;
 }
+
+
 .blue-banner {
     background-color: #244ac2;
     color: white;
@@ -154,7 +156,7 @@ section {
         left: 85%;
         top: 50%;
     }
-    .sirc {
+    .circle {
         top: 90%;
     }
 }
@@ -184,7 +186,7 @@ section {
         top: 50%;
         z-index: -1;
     }
-    .sirc {
+    .circle {
         left: 80%;
         top: 90%;
     }
@@ -206,7 +208,7 @@ section {
     .container {
         width: 100%;
     }
-    .sirc {
+    .circle {
         left: 80%;
         top: 90%;
     }
@@ -231,7 +233,7 @@ section {
         top: 38%;
         left: 50%;
     }
-    .sirc {
+    .circle {
         left: 80%;
         top: 90%;
     }
@@ -246,7 +248,6 @@ section {
     }
     .container {
         width: 100%;
-        /* margin: 0 5%; */
         overflow: auto;
         height: 400px;
     }
@@ -268,7 +269,7 @@ section {
         top: 45%;
         left: 85%;
     }
-    .sirc {
+    .circle {
         left: 80%;
         top: 87%;
     }
@@ -296,7 +297,7 @@ section {
         top: 45%;
         left: 86%;
     }
-    .sirc {
+    .circle {
         left: 80%;
         top: 80%;
     }
@@ -344,6 +345,13 @@ section {
         z-index: 2;
     }
 }
+@media screen and (max-width: 650px) {
+
+    .next {
+        height: 35px !important;
+      width: 20px !important;
+    }
+}
 @media screen and (max-width: 480px) {
     .container {
         width: 100%;
@@ -360,7 +368,7 @@ section {
         top: 40%;
         left: 77%;
     }
-    .sirc {
+    .circle {
         left: 80%;
         top: 70%;
     }
@@ -386,7 +394,7 @@ section {
         top: 40%;
         left: 77%;
     }
-    .sirc {
+    .circle {
         left: 78%;
         top: 85%;
     }
@@ -396,9 +404,22 @@ section {
         top: 45%;
         font-size: medium;
     }
+        .next {
+            height: 30px !important;
+          width: 20px !important;
+        }
 }
+@media screen and (max-width: 480px) {
+
+    .next {
+        margin-top: 20px;
+        height: 25px !important;
+      width: 18px !important;
+    }
+}
+
 @media screen and (max-width: 413px){
-    .sirc {
+    .circle {
         left: 75%;
         top: 85%;
     }
