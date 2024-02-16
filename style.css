@@ -723,7 +723,7 @@ section {
              padding-right: 1rem;
     }
     .icons img {
-        width: 86%;
+        width: 80%;
         height: 6rem;
         margin: auto;
     }
@@ -990,9 +990,9 @@ section {
     }
 
     .icons img {
-        width: 95%;
+        width: 90%;
         height: auto;
-        padding: 19px;
+        padding: 0px;
     }
 }
 
