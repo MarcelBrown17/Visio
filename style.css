@@ -672,9 +672,9 @@ section {
     .icons img {
         display: flex;
         justify-content: center;
+        width: 75%;
+        height: 7rem !important;
         margin: auto;
-        width: 90%;
-        height: 6rem !important;
     }
     .text {
         width: 100%;
@@ -723,8 +723,9 @@ section {
              padding-right: 1rem;
     }
     .icons img {
-        width: 90%;
+        width: 86%;
         height: 6rem;
+        margin: auto;
     }
     .text {
         width: 100%;
@@ -739,8 +740,9 @@ section {
         /* padding: 2.6rem 6rem; */
     }
     .icons img {
-        width: 100%;
+        width: 90%;
         height: 6rem;
+        margin: auto;
     }
     .text {
         width: 100%;
@@ -754,8 +756,10 @@ section {
         /* padding: 2.6rem 7rem; */
     }
     .icons img {
-        width: 100%;
+        width: 90%;
         height: auto;
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -767,8 +771,9 @@ section {
         padding-left :4rem !important;
     }
     .icons img {
-        width: 100%;
+        width: 80%;
         height: auto;
+        margin: auto;
     }
 }
 
@@ -783,9 +788,10 @@ section {
     }
 
     .icons img {
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 2rem 0 0 0;
+        
     }
 }
 
@@ -799,7 +805,7 @@ section {
     }
 
     .icons img {
-        width: 100%;
+        width: 85%;
         height: 5rem;
     }
 }
@@ -820,7 +826,7 @@ section {
     }
 
     .icons img {
-        width: 100%;
+        width: 85%;
         height: auto;
         padding: 2rem 0 0 0;
     }
@@ -832,7 +838,7 @@ section {
     }
     .icons img {
         display: flex;
-        width: 100%;
+        width: 90%;
         height: 4rem;
         padding: 3rem 0 0 0;
     }
@@ -866,15 +872,22 @@ section {
     .icons img {
         display: flex;
         margin: auto;
-        width: 100%;
+        width: 97%;
         height: 6rem;
         padding: 3rem 0 0 0;
     }
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 626px) {
     .text {
         width: 100%;
+    }
+    .icons img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+        height: 6rem;
+        padding: 3rem 0 0 0;
     }
 }
 
@@ -958,7 +971,7 @@ section {
     }
 
     .icons img {
-        width: 22rem;
+        width: 100%;
         height: auto;
         padding: 19px;
     }
@@ -1008,6 +1021,11 @@ section {
         display: grid;
         padding: 24px;
     }
+    .icons img {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1018,7 +1036,7 @@ section {
 
     .icons img {
         width: 95%;
-        height: auto;
+        height: 3rem;
         padding: 15px;
     }
 }
@@ -1029,12 +1047,24 @@ section {
     }
 
     .icons img {
-        width: 95%;
-        height: auto;
-        padding: 15px;
+        width:100%;
+        height: 4rem !important;
+        padding: 0px;
     }
 }
 
+@media screen and (max-width: 349px) {
+    .text-icons {
+        display: grid;
+        padding: 10px 30px;
+    }
+
+    .icons img {
+        width:100%;
+        height: 4rem !important;
+        padding: 0px;
+    }
+}
 @media screen and (max-width: 347px) {
     .text-icons {
         display: grid;
@@ -1042,9 +1072,9 @@ section {
     }
 
     .icons img {
-        width: 100%;
-        height: auto;
-        padding: 15px;
+        width:100%;
+        height: 3rem !important;
+        padding: 0px;
     }
 }
 
