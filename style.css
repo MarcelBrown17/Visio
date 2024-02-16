@@ -637,8 +637,10 @@ section {
 @media screen and (max-width: 1080px) {
     .text-icons {
         display: flex;
-        justify-content: space-evenly;
-        padding: 2.6rem 7.5rem;
+        justify-content: space-evenly !important;
+        padding: 2.6rem 0;
+        padding-left: 7.5rem;
+        padding-right: 3rem;
     }
 }
 
