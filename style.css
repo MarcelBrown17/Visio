@@ -701,7 +701,7 @@ section {
     .text-icons {
         display: flex;
         flex-direction: column;
-             padding: 0rem 0rem;
+             padding: 2rem 0rem;
              padding-left: 6rem !important;
              padding-right: 1rem;
     }
@@ -756,7 +756,7 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        /* padding: 2.6rem 6rem; */
+        padding-top: 2.6rem;
     }
     .icons img {
         width: 80%;
@@ -990,7 +990,7 @@ section {
 @media screen and (max-width: 480px) {
     .text-icons {
         display: grid;
-        padding: 1rem;
+        padding: 2rem 1rem;
     }
 
     .text {
@@ -1008,7 +1008,7 @@ section {
 @media screen and (max-width: 481px) {
     .text-icons {
         display: grid;
-        padding: 5px;
+        padding-top: 1.5rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -1028,7 +1028,7 @@ section {
 @media screen and (max-width: 466px) {
     .text-icons {
         display: grid;
-        padding: 5px 33px;
+        padding: 1.5rem 33px;
     }
 
     .text {
@@ -1046,7 +1046,7 @@ section {
 @media screen and (max-width: 442px) {
     .text-icons {
         display: grid;
-        padding: 5px 22px;
+        padding: 1.5rem 22px;
     }
     .icons img {
         width: 100%;
@@ -1058,12 +1058,12 @@ section {
 @media screen and (max-width: 411px) {
     .text-icons {
         display: grid;
-        padding: 32px;
+        padding: 1.5rem 32px;
     }
 
     .icons img {
         width: 100%;
-        height: auto;
+        height: 90px !important;
         padding: 0;
     }
 }
@@ -1071,7 +1071,7 @@ section {
 @media screen and (max-width: 388px) {
     .text-icons {
         display: grid;
-        padding: 24px;
+        padding: 1.3rem  24px;
     }
     .icons img {
         width: 100%;
@@ -1259,6 +1259,21 @@ section {
         grid-template-columns: 48% 48%;
     }
 }
+@media screen and (max-width: 1040px) {
+    .col-sec {
+        grid-template-columns: 25.5% 25.5% 25.5%;
+        gap: 15px;
+    }
+
+    .sub-boxs img {
+        width: 1.5em;
+        height: 1.32rem !important;
+    }
+
+    .sub-box {
+        grid-template-columns: 48% 48%;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .col-sec {
@@ -1273,7 +1288,7 @@ section {
 
 @media screen and (max-width: 1000px) {
     .col-sec {
-        grid-template-columns: 25.5% 25.5% 25.5%;
+        grid-template-columns: 26.4% 26.4% 26.4%;
         padding-left: 2rem !important;
     }
 
@@ -1285,7 +1300,7 @@ section {
 
 @media screen and (max-width: 985px) {
     .col-sec {
-        grid-template-columns: 25.5% 25.5% 25.5%;
+        grid-template-columns: 26% 26% 26%;
     }
 
     .sub-box {
