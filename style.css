@@ -1241,7 +1241,7 @@ section {
 
 @media screen and (max-width: 985px) {
     .col-sec {
-        grid-template-columns: 25.5% 25.5% 25.5%;
+        grid-template-columns: 26git % 26% 26%;
     }
 
     .sub-box {
@@ -1257,7 +1257,7 @@ section {
 
 @media screen and (max-width: 940px) {
     .col-sec {
-        grid-template-columns: 15rem 15rem 15rem;
+        grid-template-columns: 25.5% 25.5% 25.5%;
         padding-left: 2.3rem !important;
     }
 
